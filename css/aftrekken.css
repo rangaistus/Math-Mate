@@ -62,3 +62,7 @@ section {
     align-items: center;
     margin-top: 30vh;
 }
+
+#uitkomst {
+    margin-top: 0;
+}
