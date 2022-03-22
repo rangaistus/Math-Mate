@@ -1,11 +1,16 @@
-function machtsverheffen() {
-    let getal1 = document.getElementById('getal1').value;
-    let getal2 = document.getElementById('getal2').value;
-    let uitkomst = getal1;
+// Tables
+function tafels() {
+    let inputTableOne = document.getElementById('getal1').value;
+    let inputTableTwo = document.getElementById('getal2').value;
+    let inputOne = parseFloat(inputTableOne);
+    let inputTwo = parseFloat(inputTableTwo);
+    document.getElementById('uitkomst').innerHTML = "";
 
-    for (let index = 1; index < getal2; index++) {
-        uitkomst = uitkomst * getal1
+    let counter = 0;
+    while(counter <= inputOne){
+        document.getElementById('uitkomst').innerHTML += counter * inputTwo + " ";
+        counter++;
     }
-    
-    document.getElementById('uitkomst').innerHTML = uitkomst
-} document.getElementById('bereken').addEventListener('click', machtsverheffen) 
+}
+
+document.getElementById('bereken').addEventListener("click", tafels);
