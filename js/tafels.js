@@ -1,14 +1,14 @@
-// Tables
 function tafels() {
-    let inputTableOne = document.getElementById('getal1').value;
-    let inputTableTwo = document.getElementById('getal2').value;
-    let inputOne = parseFloat(inputTableOne);
-    let inputTwo = parseFloat(inputTableTwo);
+
+    let getal1input = document.getElementById('getal1').value;
+    let getal2input = document.getElementById('getal2').value;
+    let getal1 = parseFloat(getal1input);
+    let getal2 = parseFloat(getal2input);
     document.getElementById('uitkomst').innerHTML = "";
 
     let counter = 0;
-    while(counter <= inputOne){
-        document.getElementById('uitkomst').innerHTML += counter * inputTwo + " ";
+    while(counter <= getal1){
+        document.getElementById('uitkomst').innerHTML += counter * getal2 + " ";
         counter++;
     }
 }
