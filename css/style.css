@@ -55,14 +55,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }  
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30vh;
-}
-
-#uitkomst {
-    margin-top: 0;
-}
