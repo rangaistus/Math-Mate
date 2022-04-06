@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Math-Mate - Aftrekken">
-    <meta name="author" content="Emirhan Boyaci">
-    <meta name="keywords" content="Aftrekken, Rekenen, Math-Mate, mboRijnland">
+    <meta name="description" content="Math-Mate - Tafels">
+    <meta name="author" content="Yarnick Kerskes">
+    <meta name="keywords" content="Tafels, Rekenen, Math-Mate, mboRijnland">
 
     <link rel="stylesheet" href="css/aftrekken.css">
 
-    <title>Math-Mate - Aftrekken</title>
+    <title>Math-Mate - Collatz conjucture</title>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Presentatie</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Basis sommen</a>
@@ -45,32 +45,23 @@
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Complexe reeksen</a>
                     <div class="dropdown-content">
-                        <a href="#">Fibonacci</a>
-                        <a href="#">Priemgetallen</a>
-                        <a href="#">Collatz conjucture</a>
-                        <a href="#">Perfect Number</a>
+                        <a href="fibonacci.html">Fibonacci</a>
+                        <a href="priemgetallen.html">Priemgetallen</a>
+                        <a href="collatz conjucture.html">Collatz conjucture</a>
+                        <a href="perfect number.html">Perfect Number</a>
                     </div>
                 </li>
             </ul>
         </nav>
     </header>
+    
+    <input type="number" id="input" placeholder="0" />
+<input type="submit" id="submit" value="Submit" />
+<br />
+<div id="output"></div>
 
-    <section>
-        <article>
-            <div class="border">
-                <label>Getal 1</label>
-                <input type="number" id="getal1">
-                <br>
-                <label>Getal 2</label>
-                <input type="number" id="getal2">
-                <br>
-                <label>Antwoord:</label>
-                <div id="uitkomst"></div>
-                <input type="button" id="bereken" value="Bereken">
-            </div>
-        </article>
-    </section>
 </body>
-<script src="js/machtsverheffen.js"></script>
+
+<script src="js/collatz conjucture.js"></script>
 
 </html>

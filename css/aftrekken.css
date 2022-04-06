@@ -63,6 +63,14 @@ section {
     margin-top: 30vh;
 }
 
+.border {
+    display:inline-block;
+    border: solid black 1px;
+    box-shadow: 4px 4px 4px 4px #e54160;
+    height: 200px;
+    width: 400px;
+}
+
 #uitkomst {
     margin-top: 0;
 }

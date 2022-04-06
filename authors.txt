@@ -1,2 +1,4 @@
 Authors:
 Emirhan Boyaci
+Yarnick Kerskes
+Esat Altinsoy
