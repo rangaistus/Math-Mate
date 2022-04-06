@@ -8,8 +8,10 @@ function machten() {
     document.getElementById('uitkomst').innerHTML = "";
 
     let counter = 0;
+
+
     while (counter <= getal2) {
-        document.getElementById('uitkomst').innerHTML += Math.pow(getal1, counter) + " ";
+        document.getElementById('uitkomst').innerHTML += Math.pow(getal1, counter) + "<br>";
         counter++;
     }
 }
