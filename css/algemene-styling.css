@@ -311,6 +311,12 @@ html {
 
 #uitkomst {
     margin-top: 0;
+    font-size: 15px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 20px;
 }
 
 input[type=button] {
@@ -337,5 +343,7 @@ input[type=button]:hover {
 
 input[type=number] {
     border-radius: 25px;
+    height: 30px;
     border: 2px solid #fff;
+    font-size: 20px;
 }
