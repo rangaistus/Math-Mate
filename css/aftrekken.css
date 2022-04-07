@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.hamburger {
-    display: none;
-}
-
 .title > article > h1 {
     font-size: 50px;
     font-family:Arial, Helvetica, sans-serif;
