@@ -103,7 +103,8 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 188px);
+    height: calc(170vh - 190px);
+    text-align: center;
   }
   .banner-area > article > img {
     height: 300px;
@@ -111,6 +112,7 @@ html {
     text-align: center;
     position: relative;
   }
+
   .banner-area h1 {
       text-transform: uppercase;
       color: #333;
@@ -134,6 +136,18 @@ html {
   .menu-area > .title > article > h1 {
     font-size: 40px;
   }
+
+  .banner-area {
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(210vh - 190px);
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -154,7 +168,8 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 187px);
+    height: calc(210vh - 190px);
+    text-align: center;
   }
 }
 
@@ -166,6 +181,17 @@ html {
 
   .banner-area > p {
     font-size: 20px;
+    text-align: center;
+  }
+  .banner-area {
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(180vh - 190px);
     text-align: center;
   }
 }
