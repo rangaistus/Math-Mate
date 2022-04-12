@@ -105,6 +105,16 @@ html {
     flex-direction: column;
     height: calc(100vh - 188px);
   }
+  .banner-area > article > img {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    position: relative;
+  }
+  .banner-area > article {
+    width: 800px;
+    text-align: center;
+  }
   .banner-area h1 {
       text-transform: uppercase;
       color: #333;
@@ -127,6 +137,10 @@ html {
     
   .menu-area > .title > article > h1 {
     font-size: 40px;
+  }
+
+  .banner-area {
+    height: calc(100vh - 100px);
   }
 }
 
@@ -348,6 +362,13 @@ input[type=number] {
     font-size: 20px;
 }
 
+input[type=text] {
+  border-radius: 25px;
+  height: 30px;
+  border: 2px solid #fff;
+  font-size: 20px;
+}
+
 /* Esat */
 button {
   display: flex;
@@ -405,3 +426,4 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 /* Esat */
+
