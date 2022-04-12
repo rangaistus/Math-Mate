@@ -41,6 +41,10 @@ html {
     min-height: 100vh;
   }
 
+  .menu-area {
+    z-index: 9999;
+  }
+
   .menu-area a{
     display: flex;
     align-items: center;
@@ -52,7 +56,6 @@ html {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-  
   }
   .menu-area a:hover{
     background: #e54160;
@@ -408,4 +411,260 @@ input[type=submit]:hover {
 .reveal {
     height: 877px;
     background-color: #f4f4f4;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .reveal {
+        height: 877px;
+        background-color: #f4f4f4;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .slides {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .reveal {
+    height: 749px;
+    background-color: #f4f4f4;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.slides {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(1) {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(2) {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(3) {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) > h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(5) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+#websiteFoto {
+  width: 800px;
+}
+
+.slides > section:nth-child(6) {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) > p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) > p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .reveal {
+    height: 749px;
+    background-color: #f4f4f4;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.slides {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(1) {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(2) {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(3) {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) > h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(5) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+#websiteFoto {
+  width: 700px;
+}
+
+.slides > section:nth-child(6) {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) > p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) > p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .reveal {
+    height: 876px;
+    background-color: #f4f4f4;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.slides {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(1) {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.slides > section:nth-child(2) {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(3) {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.slides > section:nth-child(4) > h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(5) {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+#websiteFoto {
+  width: 700px;
+}
+
+.slides > section:nth-child(6) {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(7) > p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(8) > p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
 }
