@@ -103,7 +103,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(150vh - 190px);
+    height: calc(180vh - 190px);
     text-align: center;
   }
   .banner-area > article > img {
@@ -168,7 +168,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(180vh - 190px);
+    height: calc(210vh - 190px);
     text-align: center;
   }
 }
@@ -191,7 +191,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(180vh - 190px);
+    height: calc(200vh - 190px);
     text-align: center;
   }
 }
@@ -204,6 +204,18 @@ html {
 
   .banner-area > p {
     font-size: 20px;
+    text-align: center;
+  }
+
+  .banner-area {
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(175vh - 190px);
     text-align: center;
   }
 }
