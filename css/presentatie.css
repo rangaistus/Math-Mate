@@ -415,10 +415,10 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .reveal {
-    height: 749px;
+    height: 409px;
     background-color: #f4f4f4;
     font-size: 5rem;
-    text-align: center;
+    text-align: center;;
 }
 
 .slides {
@@ -432,17 +432,17 @@ input[type=submit]:hover {
 }
 
 .slides > section:nth-child(2) {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
 .slides > section:nth-child(3) {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
 .slides > section:nth-child(4) {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -453,41 +453,41 @@ input[type=submit]:hover {
 }
 
 .slides > section:nth-child(5) {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 400;
 }
 
 #websiteFoto {
-  width: 800px;
+  width: 700px;
 }
 
 .slides > section:nth-child(6) {
-  font-size: 2.5rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 400;
 }
 
 .slides > section:nth-child(7) {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 400;
 }
 
 .slides > section:nth-child(7) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) {
   font-size: 3rem;
   text-align: center;
   font-weight: 400;
 }
 
+.slides > section:nth-child(8) {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
 .slides > section:nth-child(8) > p {
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 400;
 }
