@@ -415,7 +415,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .reveal {
-    height: 750px;
+    height: 860px;
     background-color: #f4f4f4;
     font-size: 5rem;
     text-align: center;
