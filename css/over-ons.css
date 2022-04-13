@@ -103,7 +103,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(170vh - 190px);
+    height: calc(150vh - 190px);
     text-align: center;
   }
   .banner-area > article > img {
@@ -145,7 +145,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(210vh - 190px);
+    height: calc(190vh - 190px);
     text-align: center;
   }
 }
@@ -168,7 +168,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(210vh - 190px);
+    height: calc(180vh - 190px);
     text-align: center;
   }
 }
