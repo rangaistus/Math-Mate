@@ -13,10 +13,10 @@ function completeNumber()
 				}
 				if(addition == flag)
 				{
-					window.alert("is wel Perfect getal");
+					document.getElementById('output').innerHTML = "is wel Perfect getal";
 				}
 				else
 				{
-					window.alert("is geen Perfect getal");
+					document.getElementById('output').innerHTML = "is geen Perfect getal";
 				}
 			}
