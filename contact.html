@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Math-Mate - Factorizer">
+    <meta name="description" content="Math-Mate - Contact">
     <meta name="author" content="Yarnick Keskes">
-    <meta name="keywords" content="Factorizer, Rekenen, Math-Mate, mboRijnland">
+    <meta name="keywords" content="Contact, Rekenen, Math-Mate, mboRijnland">
 
     <link rel="icon" href="media/Logo - Icon.png">
     <link rel="stylesheet" href="css/algemene-styling.css">
 
-    <title>Math-Mate - Factorizer</title>
+    <title>Math-Mate - Contact</title>
 </head>
 
 <body>
@@ -61,24 +61,30 @@
                 </ul>
                 </li>
                 <li><a href="over-ons.html">Over Ons</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
         </ul>
         </div>
         <section class="title">
             <article>
                 <h1>
-                    Factorizer
+                    Neem hier contact op!
                 </h1>
             </article>
         </section>
         <section class="banner-area">
             <article>
-                <label>Getal 1</label>
-                <input type="number" id="getal1">
-                <br>
-                <label>Antwoord:</label>
-                <div id="uitkomst"></div>
-                <input type="button" id="bereken" value="Bereken">
+                <form>
+                    <label for="voornaam">Voornaam:</label><br>
+                    <input type="text" id="voornaam" name="voornaam"><br>
+                    <label for="achternaam">Achternaam:</label><br>
+                    <input type="text" id="acternaam" name="achternaam"><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="onderwerp">Onderwerp:</label><br>
+                    <input type="text" id="onderwerp" name="onderwerp"><br>
+                    <label for="bericht">Laat uw bericht achter:</label><br>
+                    <input type="text" id="bericht" name="bericht"><br>
+                </form>
             </article>
         </section>
     </header>
