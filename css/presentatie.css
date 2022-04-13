@@ -722,15 +722,4 @@ input[type=submit]:hover {
   font-weight: 400;
 }
 
-.slides > section:nth-child(8) {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-}
 }
