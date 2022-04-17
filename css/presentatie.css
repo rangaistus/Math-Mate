@@ -427,69 +427,65 @@ input[type=submit]:hover {
 }
 
 .slides > section:nth-child(1) {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .slides > section:nth-child(2) {
-  font-size: 5rem;
-  text-align: center;
+font-size: 5rem;
+text-align: center;
 }
 
 .slides > section:nth-child(3) {
-  font-size: 5rem;
-  text-align: center;
+font-size: 5rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) {
-  font-size: 3rem;
-  text-align: center;
+font-size: 4rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) > h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 5rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(5) {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(5) > h1 {
+font-size: 5rem;
+text-align: center;
+font-weight: 400;
 }
 
-#websiteFoto {
-  width: 700px;
+.slides > section:nth-child(5) > p {
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(6) {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(6) > h1 {
+font-size: 5rem;
+text-align: center;
+font-weight: 400;
+}
+
+.slides > section:nth-child(6) > p {
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 5rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) > p {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) {
-  font-size: 5rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) > p {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 5rem;
+text-align: center;
+font-weight: 400;
 }
 
 }
@@ -508,69 +504,65 @@ input[type=submit]:hover {
 }
 
 .slides > section:nth-child(1) {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .slides > section:nth-child(2) {
-  font-size: 3rem;
-  text-align: center;
+font-size: 4rem;
+text-align: center;
 }
 
 .slides > section:nth-child(3) {
-  font-size: 3rem;
-  text-align: center;
+font-size: 4rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) {
-  font-size: 2rem;
-  text-align: center;
+font-size: 3rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) > h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(5) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(5) > h1 {
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
 }
 
-#websiteFoto {
-  width: 800px;
+.slides > section:nth-child(5) > p {
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(6) {
-  font-size: 2.5rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(6) > h1 {
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
+}
+
+.slides > section:nth-child(6) > p {
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 4rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
 }
@@ -589,70 +581,67 @@ input[type=submit]:hover {
 }
 
 .slides > section:nth-child(1) {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .slides > section:nth-child(2) {
-  font-size: 3rem;
-  text-align: center;
+font-size: 3rem;
+text-align: center;
 }
 
 .slides > section:nth-child(3) {
-  font-size: 3rem;
-  text-align: center;
+font-size: 3rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) {
-  font-size: 2rem;
-  text-align: center;
+font-size: 2rem;
+text-align: center;
 }
 
 .slides > section:nth-child(4) > h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(5) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(5) > h1 {
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
-#websiteFoto {
-  width: 700px;
+.slides > section:nth-child(5) > p {
+font-size: 2rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(6) {
-  font-size: 2.5rem;
-  text-align: center;
-  font-weight: 400;
+.slides > section:nth-child(6) > h1 {
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
+}
+
+.slides > section:nth-child(6) > p {
+font-size: 2rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 3rem;
+text-align: center;
+font-weight: 400;
 }
 
 .slides > section:nth-child(7) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
+font-size: 2rem;
+text-align: center;
+font-weight: 400;
 }
 
-.slides > section:nth-child(8) {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 400;
-}
-
-.slides > section:nth-child(8) > p {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-}
 }
 
 @media screen and (min-width: 1280px) {
@@ -694,18 +683,26 @@ input[type=submit]:hover {
   font-weight: 400;
 }
 
-.slides > section:nth-child(5) {
+.slides > section:nth-child(5) > h1 {
   font-size: 2rem;
   text-align: center;
   font-weight: 400;
 }
 
-#websiteFoto {
-  width: 700px;
+.slides > section:nth-child(5) > p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
 }
 
-.slides > section:nth-child(6) {
-  font-size: 1.5rem;
+.slides > section:nth-child(6) > h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slides > section:nth-child(6) > p {
+  font-size: 1rem;
   text-align: center;
   font-weight: 400;
 }
